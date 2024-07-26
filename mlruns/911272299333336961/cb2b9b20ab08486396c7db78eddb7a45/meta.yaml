@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HES/Desktop/Work/SE Factory/AI ML/testing_rainfall_artifacts/cb2b9b20ab08486396c7db78eddb7a45/artifacts
+end_time: 1721954218925
+entry_point_name: ''
+experiment_id: '911272299333336961'
+lifecycle_stage: active
+run_id: cb2b9b20ab08486396c7db78eddb7a45
+run_name: raining_models
+run_uuid: cb2b9b20ab08486396c7db78eddb7a45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721954207918
+status: 3
+tags: []
+user_id: HES

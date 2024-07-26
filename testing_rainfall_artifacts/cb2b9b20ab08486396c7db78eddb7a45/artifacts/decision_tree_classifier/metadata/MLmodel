@@ -1,0 +1,33 @@
+artifact_path: decision_tree_classifier
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.2
+model_size_bytes: 2422419
+model_uuid: 051f1aae488340eea37427893051fc24
+run_id: cb2b9b20ab08486396c7db78eddb7a45
+signature:
+  inputs: '[{"type": "double", "name": "MinTemp", "required": true}, {"type": "double",
+    "name": "MaxTemp", "required": true}, {"type": "double", "name": "Rainfall", "required":
+    true}, {"type": "long", "name": "WindGustSpeed", "required": true}, {"type": "long",
+    "name": "WindSpeed9am", "required": true}, {"type": "long", "name": "WindSpeed3pm",
+    "required": true}, {"type": "long", "name": "Humidity9am", "required": true},
+    {"type": "long", "name": "Humidity3pm", "required": true}, {"type": "double",
+    "name": "Pressure9am", "required": true}, {"type": "double", "name": "Pressure3pm",
+    "required": true}, {"type": "double", "name": "Temp9am", "required": true}, {"type":
+    "double", "name": "Temp3pm", "required": true}, {"type": "long", "name": "RainToday",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-07-26 00:36:50.205089'
